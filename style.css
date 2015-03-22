@@ -1,0 +1,64 @@
+header{
+	padding: 0;
+}
+body{
+	font-family: Candara, Century Gothic, Futura;
+	font-size: 18px;
+	background-color: rgb(220,220,220);
+	margin: 0;
+	padding: 2% 15%;
+	text-align: justify;
+}
+h1 {
+	font-family: Candara, Century Gothic, Futura;
+	font-size: 45px;
+	margin: 0;
+	color: rgb(0,0,0);
+	padding: 2%;
+	text-align: center;
+}
+.titleimage{
+	text-align: center;
+}
+.intextimage{
+	text-align: center;
+}
+article{
+	background-color:white;
+}
+h2{
+	text-align: center;
+	padding: 2% 2%;
+	background-color:white;
+}
+h3{
+	padding: 0% 2%;
+}
+nav{
+	margin:0;
+	text-align: center;
+}
+nav ul li{
+	font-size: 20px;
+	list-style-type: none;
+	display: inline-block;
+	color: rgb(0,0,0);
+	padding: 4% 4%;
+	margin: 0;
+	text-align: center;
+}
+body article p{
+	padding: 1%;
+	background-color: white;
+	text-align: justify;
+}
+footer ul li{
+	list-style-type: none;
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	height: 30px;
+	bottom: 0;
+	left: 0;
+	text-align:center;
+}
