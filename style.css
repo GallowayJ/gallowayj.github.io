@@ -2,70 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
-/*-----Tabs----*/
-.tabs {
-	width:100%;
-	display:inline-block;
-	text-align: center;
-}
-	/*----tab links----*/
-	.tab-links:after {
-		display: block;
-		clear:both;
-
-	}
-	.yunocenter {
-		display: inline-block;
-		text-align: center;
-		width: 100%
-	}
-	.tab-links li {
-		margin: 0px 0px;
-		display: inline-block;
-		list-style: none;
-		text-align: center;
-	}
-
-		.tab-links a {
-			padding: 9px 15px;
-			display: inline-block;
-			text-align: center;
-			border-radius: 3px 3px 0px 0px;
-			background: #7FB5DA;
-			font-size: 16px;
-			font-weight: 600;
-			color: #4c4c4c;
-			transition:all linear 0.15s;
-		}
-
-		.tab-links a:hover {
-			background: #a7cce5;
-			text-decoration: none;
-		}
-	li.active a, li.active a:hover {
-		background: #fff;
-		color: #4c4c4c;
-	}
-	/*----- Content of Tabs -----*/
-	 .tab-content {
-			 padding:15px;
-			 border-radius:3px;
-			 box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
-			 background:#fff;
-	 }
-
-			 .tab {
-					 display:none;
-			 }
-
-			 .tab.active {
-					 display:block;
-			 }
-
-header{
-	 	padding: 0;
-}
 body{
 	 	font-family: 'Open Sans',sans-serif;
 	 	font-size: 18px;
@@ -74,9 +10,70 @@ body{
 	 	padding: 2% 15%;
 	 	text-align: justify;
 }
+/*-----Tabs----*/
+  .tabs {
+  	width:100%;
+  	display:inline-block;
+  	text-align: center;
+  }
+	/*----tab links----*/
+  	.tab-links:after {
+  		display: block;
+  		clear:both;
+
+  	}
+  	.yunocenter {
+  		display: inline-block;
+  		text-align: center;
+  		width: 100%
+  	}
+    	.tab-links li {
+    		margin: 0px 0px;
+    		display: inline-block;
+    		list-style: none;
+    		text-align: center;
+    	}
+
+  		.tab-links a {
+  			padding: 9px 15px;
+  			display: inline-block;
+  			text-align: center;
+  			border-radius: 3px 3px 0px 0px;
+  			background: #7FB5DA;
+  			font-size: 16px;
+  			font-weight: 600;
+  			color: #4c4c4c;
+  			transition:all linear 0.15s;
+  		}
+
+  		.tab-links a:hover {
+  			background: #a7cce5;
+  			text-decoration: none;
+  		}
+    	li.active a, li.active a:hover {
+    		background: #fff;
+    		color: #4c4c4c;
+    	}
+	/*----- Content of Tabs -----*/
+	 .tab-content {
+			 padding:15px;
+			 border-radius:3px;
+			 box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+			 background:#fff;
+	 }
+
+		 .tab {
+				 display:none;
+		 }
+
+		 .tab.active {
+				 display:block;
+		 }
+
+
 h1 {
 	font-family: 'Open Sans',sans-serif;
-	font-size: 45px;
+	font-size: 40px;
 	margin: 0;
 	color: rgb(0,0,0);
 	padding: 2%;
@@ -94,7 +91,6 @@ article{
 h2{
 	text-align: center;
 	padding: 2% 2%;
-	background-color:white;
 }
 h3{
 	padding: 0% 2%;
@@ -115,7 +111,7 @@ nav ul li{
 body article p{
 	padding: 1%;
 	background-color: white;
-	text-align: justify;
+	text-align: left;
 }
 footer ul li{
 	list-style-type: none;
@@ -125,5 +121,6 @@ footer ul li{
 	height: 30px;
 	bottom: 0;
 	left: 0;
+  padding: 1%;
 	text-align:center;
 }
