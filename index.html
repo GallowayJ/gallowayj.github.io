@@ -5,44 +5,152 @@
 	<meta name="description" content="A portal to Jason's interests and projects.">
 	<meta name="author" content="Jason Galloway">
 	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	<script type="text/javascript" src="jquery.js"> async</script>
 
 </head>
-
 <body>
+
 	<header>
 		<h1>Jason Galloway</h1>
-		
-		</div>
-		<nav>
-			<ul>
-				<li><a href="index.html">Start</a></li>
-				<li><a href="about.html">About me</a></li>
-				<li><a href="interests.html">Interests</a></li>
-			</ul>
-		</nav>
 	</header>
-	
-	<article>
-		<h2>Hello there! Servus! Hej! Salut ! &iexcl;Buenas!</h2>
-		<div class="intextimage">
-		<img src="images/standingfrontdam.jpg" alt="Jason standing in front of a snow-covered beaver dam">
+
+		<div class="tabs">
+			<div class="yunocenter">
+
+			<ul class="tab-links">
+				<li class="active"><a href="#index">Start</a></li>
+				<li><a href="#about">About me</a></li>
+				<li><a href="#interests">Interests</a></li>
+			</ul>
+			</div>
+
+			<div class="tab-content">
+				<div id="index" class="tab active">
+					<article>
+						<h2>Hello there! Servus! Hej! Salut ! &iexcl;Buenas!</h2>
+						<div class="intextimage">
+						<img src="images/standingfrontdam.jpg" alt="Jason standing in front of a snow-covered beaver dam">
+						</div>
+						<p>
+						Welcome to my website, if you'd like to find out a bit about me and the projects that I'm working on you've
+						come to the right place.
+						</p>
+						<p>
+						I'm currently adding content and features to this site so check back from time to time. Thanks!
+						</p>
+					</article>
+				</div>
+
+				<div id="about" class="tab">
+					<article>
+						<h2>My background</h2>
+						<p>
+						I spent my formative years between the UK and the Caribbean. Much of my child hood was spent outdoors
+						where I developed a curiosity to better understand the natural world. This was the beginning of my interests
+						in the natural sciences.
+						</p>
+						<div class="intextimage">
+						<img src="images/theboy.jpg" alt="Jason outdoors as a young boy">
+						</div>
+						<p>
+						I completed my BSc at the University of East Anglia in Environmental Science, spending one year working as an Environmental Coordinator
+						for a multinational plastics manufacturer. My main responsibilities pertained to corporate social responsibility and sustainability.
+						</p>
+						<div class="intextimage">
+						<img src="images/thegrad.jpg" alt="Jason in his graduation attire, standing outside of the UEA.">
+						</div>
+						<p>
+						After graduation I found employment in the marketing industry. After a year I decided to quit the industry in favour of
+						a return to a vocation which I felt passionate about. This lead me to relocate to Spain for an internship working in
+						the international department of an environmental organisation to gain experience in project management. It was an opportunity
+						which I thoroughly enjoyed and the experience made me eager to maintain a <em>European</em> perspective to my future endeavours.
+						</p>
+						<div class="intextimage">
+						<img src="images/themonitor.jpg" alt="Jason sitting in a landrover in his position as an environmental monitor.">
+						</div>
+						<p>
+						I took the decision to return to study in order to increase my expertise environmental pollutants and the modelling of their movement.
+						I worked at an Environmental Monitoring Techician and later as an Environmental Technologist whilst saving to finance my return to study.
+						Given my desire to continue to develop my skills in a European context I enrolled myself on a double MSc. course which promoted
+						international cooperation as one of the programme's core values. I specialised in Water Resources with a focus on modelling the movement
+						of contaminants from the soil into water bodies.
+						</p>
+						<div class="intextimage">
+						<img src="images/thescientist.jpg" alt="Jason working in a laboratory.">
+						</div>
+					</article>
+				</div>
+
+				<div id="interests" class="tab">
+					<article>
+						<h2>Interests and hobbies</h2>
+						<p>
+						In my free time I enjoy range of activities from photography, music production and coding to sport and long
+						walks on sunny afternoons. Below you'll be able to find links to my specific web pages relating to these activities.
+						</p>
+						<div class="intextimage">
+						<img src="images/thetog.jpg" alt="Jason in the forest taking a photograph.">
+						</div>
+						<h3>Photography</h3>
+
+						<p>
+						I've held a long-standing interest in photograph, recently I've begun the transitionary process of moving from
+						<em>casual</em> to <em>enthusiast</em>. My favourite subjects are landscapes and cityscapes. My entire work-flow
+						is FOSS, I use <a href="http://www.darktable.org/">Darktable</a> as my RAW processor and <a href="http://www.gimp.org/">
+						Gimp</a> running on a Buntu flavour of linux.
+						</p>
+						<object width="100%" height="300">
+						<param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fnomadbprodz%2Fshow%2F&page_show_back_url=%2Fphotos%2Fnomadbprodz%2F&user_id=61038468@N03&jump_to="></param>
+						<param name="movie" value="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554"></param>
+						<param name="allowFullScreen" value="true"></param>
+						<embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=1811922554" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fnomadbprodz%2Fshow%2F&page_show_back_url=%2Fphotos%2Fnomadbprodz%2F&user_id=61038468@N03&jump_to=" width="400" height="300"></embed>
+						</object>
+
+						<p>
+						Here's a <a href="https://www.flickr.com/photos/nomadbprodz/">link</a> to my Flickr account.
+						</p>
+						<div class="intextimage">
+						<img src="images/python.jpg" alt="Jason in the forest taking a photograph.">
+						</div>
+						<h3>Coding</h3>
+						<p>
+						Since tinkering with one of my father's games written in <a href="http://en.wikipedia.org/wiki/QBasic">
+						QBasic</a> as a young boy I've had a keen interest in technology. In 2011 I finally began my journey into programming, starting
+						with the <a href="https://www.python.org/">Python programming language</a>. The majority of my use is centred
+						on the statistical and data analysis packages, such as <a href="http://pandas.pydata.org/">Pandas</a>.
+						</p>
+						<p>
+						Here's a link to analysis of player movements in the real life game of <a href="http://turfgame.com/">Turf</a>.
+						To see more of my projects visit my Github page <a href="https://github.com/GallowayJ">here</a>.
+						</p>
+						<h3>Music and writing</h3>
+						<p>
+						I spend a lot of time listening and dancing to music! In 2009 I decided to try my hand and music production,
+						an experiment which blossomed into a new hobby. Due logistically issues surrounding the transport of my equipment
+						in recent years I've been unable to produce new music. However you can listen to my old tracks <a href="https://soundcloud.com/bprodz">
+						here</a> and watch a video from the track <em>Nomad Is My Name</em> <a href="https://www.youtube.com/watch?v=lg5gKIEmNvo">
+						here</a>.
+						<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/15889948&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+						<p>
+						I also keep a blog at Tumblr where I post thoughts on various topics with a frequency marginally high than that of Hailey's
+						comet passing Earth. Here's the <a href="https://www.tumblr.com/blog/bprodz">link</a>, happy reading!
+						</p>
+					</article>
+				</div>
 		</div>
-		<p> 
-		Welcome to my website, if you'd like to find out a bit about me and the projects that I'm working on you've 
-		come to the right place.
-		</p>
-		<p>
-		I'm currently adding content and features to this site so check back from time to time. Thanks!
-		</p>
-	
-	</article>
+	</div>
+
+
+
 	<footer>
 		<ul>
 			<li>&copy; Jason Galloway 2015</li>
 			<li><em>Page under construction</em></li>
 		</ul>
 	</footer>
+
+
 </body>
-
-
 </html>
