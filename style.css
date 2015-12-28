@@ -70,9 +70,7 @@ body{
 				 display:block;
 		 }
 
-
 h1 {
-	font-family: 'Open Sans',sans-serif;
 	font-size: 40px;
 	margin: 0;
 	color: rgb(0,0,0);
@@ -95,24 +93,12 @@ h2{
 h3{
 	padding: 0% 2%;
 }
-nav{
-	margin:0;
-	text-align: center;
-}
-nav ul li{
-	font-size: 20px;
-	list-style-type: none;
-	display: inline-block;
-	color: rgb(0,0,0);
-	padding: 4% 4%;
-	margin: 0;
-	text-align: center;
-}
 body article p{
 	padding: 1%;
 	background-color: white;
 	text-align: left;
 }
+
 footer ul li{
 	list-style-type: none;
 	display: inline-block;
